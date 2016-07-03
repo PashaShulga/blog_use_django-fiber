@@ -1,0 +1,1 @@
+/usr/local/lib/python2.7/dist-packages/django_fiber-1.3.1-py2.7.egg/fiber/static/fiber/js/file-uploader-3.2.0/client/js/handler.xhr.js

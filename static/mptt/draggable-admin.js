@@ -1,0 +1,1 @@
+/usr/local/lib/python2.7/dist-packages/django_mptt-0.8.4-py2.7.egg/mptt/static/mptt/draggable-admin.js

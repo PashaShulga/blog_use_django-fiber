@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    {{ block.super }}
+    <section class="page-section">
+        <div class="container relative">
+            <div class="row">
+                {% for object in blog_list %}
+                    <div class="col-sm-8 col-md-offset-1">
+                        <!-- Post -->
+                        <div class="blog-item mb-80 mb-xs-40">
+                            <a href="{{ object.url }}"><h1>{{ object.title }}</h1></a>
+                            <div class="FAQ-box">
+                                <label>Created: {{ object.created }}</label>
+{#                                <p class="FAQanswer">#}
+{#                                    {{ object }}#}
+{#                                </p>#}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
