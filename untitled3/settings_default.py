@@ -59,7 +59,7 @@ FIBER_TEMPLATE_CHOICES = (
     ('tpl-faq-general.html', 'General Questions'),
     ('tpl-faq-entrepreneur.html', 'Entrepreneur Questions'),
     ('tpl-faq-investor.html', 'Investor Questions'),
-    # ('tpl-blog-item.html', 'Blog'),
+    ('tpl-education.html', 'Education'),
     ('test_blog.html', 'Blog'),
 )
 
